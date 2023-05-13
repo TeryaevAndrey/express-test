@@ -15,7 +15,7 @@ const startServer = () => {
     console.log("SERVER ERROR");
     process.exit(1);
   }
-};z
+};
 
 app.post("/", (req, res) => {
   console.log("cosasd");
